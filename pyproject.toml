@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "casalumen"
+version = "0.1.0"
+description = ""
+authors = ["Bradley Hurley <bradley.hurley@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+python-kasa = {version = "^0.4.0-alpha.1", allow-prereleases = true}
+astral = "^2.2"
+apscheduler = "^3.6.3"
+asyncio = "^3.4.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
