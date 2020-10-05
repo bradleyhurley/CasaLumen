@@ -10,7 +10,7 @@ IP_ADDRESS = "192.168.1.3"
 scheduler = BlockingScheduler()
 plug = SmartPlug(IP_ADDRESS)
 asyncio.run(plug.update())
-os.environ['TZ'] = 'US/Eastern'
+os.environ['TZ'] = 'America/New_York'
 
 
 def main():
